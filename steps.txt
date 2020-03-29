@@ -1,0 +1,11 @@
+*In this sample project will ceate complete scenario for project deveopment process in devops
+1 - create maven project 
+2 - create github repo
+3 - create pipeline view
+4 - create build job
+5 - create job to deploy to staging
+6 - create job to deploy to production
+7 - create pipeline job
+==========
+mvn archetype:generate -DgroupId=com.login -DartifactId=user_login -DarchetypeArtifactId=maven-archetype-webapp  -DarchetypeVersion=1.4  -DinteractiveMode=false
+===============
