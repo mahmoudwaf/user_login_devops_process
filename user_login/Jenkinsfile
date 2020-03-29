@@ -1,0 +1,10 @@
+pipeline{
+  agent any
+  stages{
+    stage('build login screen'){
+      steps{
+        build job : 'loign process build'
+      }
+    }
+  }
+}

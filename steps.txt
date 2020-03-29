@@ -5,7 +5,15 @@
 4 - create build job
 5 - create job to deploy to staging
 6 - create job to deploy to production
-7 - create pipeline job
+7 - write jenkinsfile to pipeline process
+8 - create pipeline job
 ==========
 mvn archetype:generate -DgroupId=com.login -DartifactId=user_login -DarchetypeArtifactId=maven-archetype-webapp  -DarchetypeVersion=1.4  -DinteractiveMode=false
 ===============
+echo "# user_login_devops_process" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/mahmoudwaf/user_login_devops_process.git
+git push -u origin master
+=================
