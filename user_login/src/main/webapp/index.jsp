@@ -3,6 +3,6 @@
 <h2>Hello DevOps World !</h2>
 
 
-<p>User login page v1</p>
+<p>User login page v2</p>
 </body>
 </html>
